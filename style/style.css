@@ -1,0 +1,211 @@
+body{
+	position: relative;
+	background: #000000;
+}
+
+/* Colors of the corners */
+
+.circleUp{
+	position: absolute;
+	width: 762px;
+	height: 761px;
+	left: -310px;
+	top: -325px;
+	background: #428BFA;
+	opacity: 0.6;
+	filter: blur(182px);
+}
+
+.circleDown{
+	position: absolute;
+	width: 462px;
+	height: 461px;
+	left: 1100px;
+	top: 300px;
+	background: #8A29EB;
+	opacity: 0.78;
+	filter: blur(182px);
+	transform: rotate(-180deg);
+}
+
+/* image */
+
+.image{
+	position: absolute;
+	width: 1290.84px;
+	height: 679.5px;
+	left: -25.35px;
+	top: -200.28px;
+	background: url(../image/wave-blue.png);
+	opacity: 0.10;
+	transform: rotate(-90deg);
+}
+
+/* Header */
+
+.recoveryBox{
+	position: absolute;
+	left: 28.28%;
+	right: 28.89%;
+	top: 20px;
+	bottom: 90.16%;
+}
+
+.recovery{
+	font-family: 'Michroma', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15.1174px;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/* Dividing line */
+
+.line{
+	position: absolute;
+	left: 0.07%;
+	right: 0.07%;
+	top: 60px;
+	bottom: 92.41%;
+	border: 0.755872px solid #FFFFFF;
+}
+
+/* Password recovery message */
+
+.resetBox{
+	position: absolute;
+	left: 26.72%;
+	right: 27.21%;
+	top: 140px;
+	bottom: 81.17%;
+}
+
+.resetText{
+	font-family: 'Michroma', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.name{
+	font-family:  'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 113.6%;
+	/* or 20px */
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.question{
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 113.6%;
+	/* or 20px */
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* Verification code */
+
+.verificationBox{
+	position: absolute;
+	left: 11.42%;
+	right: 12.82%;
+	top: 330px;
+	bottom: 54.76%;
+}
+
+.verification{
+	font-family:  'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 113.6%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.code{
+	position: absolute;
+	left: 11.42%;
+	right: 12.82%;
+	top: 46.27%;
+	bottom: 44.89%;
+	font-family:  'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 68px;
+	line-height: 113.6%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* Contact Customer support */
+
+.messageBox{
+	position: absolute;
+	left: 30.42%;
+	right: 28.82%;
+	top: 540px;
+	bottom: 2.16%;
+}
+
+.message{
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 113.6%;
+	/* or 20px */
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* Button Reset Password */
+
+button{
+	padding-left: 200px;
+
+}
+
+.buttonBox{
+	position: absolute;
+	left: 33.72%;
+	right: 35.21%;
+	top: 680px;
+	bottom: 14.17%;
+}
+
+.textButton{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 12.094px 15.1174px 12.094px 22.6762px;
+	gap: 59.71px;
+	position: absolute;
+	background: #428BFA;
+	border-radius: 37.7936px;
+	width: 487px;
+	height: 53px;
+	font-family:  'Arimo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 113.6%;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
